@@ -1,0 +1,37 @@
+{
+  "name": "heroku mega index",
+  "description": "A rclone serve index using Docker.",
+  "logo": "https://forum.rclone.org/uploads/default/original/2X/0/0f430bb0f2f7a9ed020a9e93c89f4d332adcac4b.gif",
+  "keywords": ["nginx", "mega fileindex", "mega", "mega.nz", "megaindex", "mega.nz-index", "mega-dl", "mega.nz-downloader", "mega-backdoor", "megaindex-backdoor", "rclone", "index"],
+  "env": {
+     "UserName": {
+      "description": "Please enter Your MEGA.NZ Username/Email.",
+      "value": "example@mail.com"
+    },
+     "Heroku_Email_Id": {
+      "description": "Enter Your Currently using Heroku Email. Its optional only if you need auto quota bypass. Your information is secure between you and Heroku.",
+      "value": "optional"
+    },
+     "Heroku_Password": {
+      "description": "Enter Your Currently using Heroku Password. Its optional only if you need auto quota bypass. Your information is secure between you and Heroku.",
+      "value": "optional"
+    },
+     "APPNAME": {
+      "description": "Please enter Your appname same as above. Don't use your app link, Use Heroku's App name. Its optional only if you need auto quota bypass. Your information is secure between you and Heroku.",
+      "value": "optional"
+    },
+     "Auto_Quota_Bypass": {
+      "description": "`true/false` |Use true or false values. Fill your Optional Config Variables if true.",
+      "value": "false"
+    },
+     "PassWord": {
+      "description": "Please enter your MEGA.NZ Password.",
+      "value": "enter-your-mega-password"
+    }
+
+
+  },
+  "website": "",
+  "repository": "",
+  "stack": "container"
+ }
